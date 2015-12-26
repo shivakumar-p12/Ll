@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/home"
     android:orientation="vertical">
 
 
@@ -13,5 +14,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Home"
         android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:id="@+id/logout"
+        android:onClick="signOut"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

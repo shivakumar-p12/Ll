@@ -3,6 +3,7 @@ package com.ll.ll;
 /**
  * Created by rdm-09 on 19-Dec-15.
  */
+/*
 public class User {
 
 
@@ -16,3 +17,4 @@ public class User {
         }
 
 }
+*/
